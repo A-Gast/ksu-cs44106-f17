@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chapter5</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/artstore.css">
+	<!-- Fonts being used -->
+	<link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<!-- Top nav bar (Login, Account, Wish List, etc.)-->
+		<div id="topNavRow">
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<p class="navbar-text">
+							Welcome to Art Store, <a class="navbar-link" href="#"><strong>Login</strong></a> or <a class="navbar-link" href="#"><strong>Create new account</strong></a>
+						</p>
+					</div>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-gift"></span> Wish List</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-arrow-right"></span> Checkout</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<!-- Logo row (Art Store, search)-->
+		<div id="logoRow">
+		<div class="row">
+			<div class="col-md-4">
+			<h1>Art Store</h1>
+			</div>
+
+			<div class="col-md-3"></div>
+
+			<div class="col-md-4">
+			<form action="http://www.randyconnolly.com/tests/process.php">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search">
+					<div class="input-group-btn">
+						<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+					</div>
+				</div>
+			</form>
+			</div>
+		</div>
+		</div>
+
+		<!-- Bottom nav bar (Home, About, Art Works, etc.) -->
+		<div id="botNavRow">
+			<nav class="navbar navbar-default">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="about.html">About Us</a></li>
+					<li ><a href="work.html">Art Works</a></li>
+					<li><a href="artists.html">Artists</a></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Specials<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Special 1</a></li>
+							<li><a href="#">Special 2</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="main">
+		<div class="jumbotron">
+			<div class="container">
+				<h2 class="rowHeader">About Us</h2>      
+				<p>This assignment was created by <em>Andrew Gast</em>.</p>
+				<p>It was created for CS44106 at Kent State University.</p>
+				<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

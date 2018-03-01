@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chapter5</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/artstore.css">
+	<!-- Fonts being used -->
+	<link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<header>
+<!-- Top nav bar (Login, Account, Wish List, etc.)-->
+<div id="topNavRow">
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<p class="navbar-text">
+					Welcome to Art Store, <a class="navbar-link" href="#"><strong>Login</strong></a> or <a class="navbar-link" href="#"><strong>Create new account</strong></a>
+				</p>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-gift"></span> Wish List</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-arrow-right"></span> Checkout</a></li>
+			</ul>
+		</div>
+	</nav>
+</div>
+
+<!-- Logo row (Art Store, search)-->
+<div id="logoRow">
+<div class="row">
+	<div class="col-md-4">
+	<h1>Art Store</h1>
+	</div>
+
+	<div class="col-md-3"></div>
+
+	<div class="col-md-4">
+	<form action="http://www.randyconnolly.com/tests/process.php">
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Search">
+			<div class="input-group-btn">
+				<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+			</div>
+		</div>
+	</form>
+	</div>
+</div>
+</div>
+
+<!-- Bottom nav bar (Home, About, Art Works, etc.) -->
+<div id="botNavRow">
+	<nav class="navbar navbar-default">
+		<ul class="nav navbar-nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li ><a href="work.html">Art Works</a></li>
+			<li class="active"><a href="artists.html">Artists</a></li>
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Specials<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Special 1</a></li>
+					<li><a href="#">Special 2</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</div>
+</header>
+
+<!-- Main Row -->
+<div class="main">
+	<br>
+	<h2 class="rowHeader">This Week's Best-Selling Artists</h2>
+	<div class="alert alert-warning">
+		Each week we show you who are our best-selling artists ...
+	</div>
+	<div class="row">
+		<div class="col-md-2">
+			<div class="thumbnail">
+				<img src="images/artists/1.jpg" class="img-responsive center-block" alt="Picasso">
+				<h5 class="rowHeader">Picasso</h5>
+				<div class="btn-group-sm">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-fire"></span> Sales <span class="badge">66</span></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="thumbnail">
+				<img src="images/artists/99.jpg" class="img-responsive center-block" alt="Raphael">
+				<h5 class="rowHeader">Raphael</h5>
+				<div class="btn-group-sm">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-fire"></span> Sales <span class="badge">56</span></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="thumbnail">
+				<img src="images/artists/19.jpg" class="img-responsive center-block" alt="Van Gogh">
+				<h5 class="rowHeader">Van Gogh</h5>
+				<div class="btn-group-sm">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-fire"></span> Sales <span class="badge">40</span></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="thumbnail">
+				<img src="images/artists/95.jpg" class="img-responsive center-block" alt="Botticelli">
+				<h5 class="rowHeader">Botticelli</h5>
+				<div class="btn-group-sm">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-fire"></span> Sales <span class="badge">37</span></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="thumbnail">
+				<img src="images/artists/29.jpg" class="img-responsive center-block" alt="Klimt">
+				<h5 class="rowHeader">Klimt</h5>
+				<div class="btn-group-sm">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-fire"></span> Sales <span class="badge">36</span></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="thumbnail">
+				<img src="images/artists/2.jpg" class="img-responsive center-block" alt="Matisse">
+				<h5 class="rowHeader">Matisse</h5>
+				<div class="btn-group-sm">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-fire"></span> Sales <span class="badge">34</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-md-2">
+			<div class="thumbnail">
+				<img src="images/artists/98.jpg" class="img-responsive center-block" alt="Michelangelo">
+				<h5 class="rowHeader">Michelangelo</h5>
+				<div class="btn-group-sm">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-fire"></span> Sales <span class="badge">32</span></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="thumbnail">
+				<img src="images/artists/106.jpg" class="img-responsive center-block" alt="Vermeer">
+				<h5 class="rowHeader">Vermeer</h5>
+				<div class="btn-group-sm">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-fire"></span> Sales <span class="badge">31</span></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="thumbnail">
+				<img src="images/artists/97.jpg" class="img-responsive center-block" alt="da Vinci">
+				<h5 class="rowHeader">da Vinci</h5>
+				<div class="btn-group-sm">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-fire"></span> Sales <span class="badge">26</span></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="thumbnail">
+				<img src="images/artists/21.jpg" class="img-responsive center-block" alt="Cezanne">
+				<h5 class="rowHeader">Cezanne</h5>
+				<div class="btn-group-sm">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-fire"></span> Sales <span class="badge">25</span></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="thumbnail">
+				<img src="images/artists/17.jpg" class="img-responsive center-block" alt="Monet">
+				<h5 class="rowHeader">Monet</h5>
+				<div class="btn-group-sm">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-fire"></span> Sales <span class="badge">25</span></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="thumbnail">
+				<img src="images/artists/101.jpg" class="img-responsive center-block" alt="Caravaggio">
+				<h5 class="rowHeader">Caravaggio</h5>
+				<div class="btn-group-sm">
+					<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-fire"></span> Sales <span class="badge">18</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<h4 class="rowHeader">Artists by Genre</h4>
+	<div class="progress">
+		<div class="progress-bar progress-bar-info" role="progressbar" style="width:9%">
+			Gothic
+		</div>
+		<div class="progress-bar progress-bar-success" role="progressbar" style="width:23%">
+			Renaissance
+		</div>
+		<div class="progress-bar progress-bar-warning" role="progressbar" style="width:15%">
+			Baroque
+		</div>
+		<div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+			Pre-Modern
+		</div>
+		<div class="progress-bar progress-bar-primary" role="progressbar" style="width:33%">
+			Modern
+		</div>
+	</div>	
+</div>
+
+</body>
+
+</html>

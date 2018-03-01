@@ -1,0 +1,89 @@
+#topNavRow p, #topNavRow a, #indexNavRow {
+  color: white !important;
+}
+
+#indexNavRow a{
+  color: white;
+  font-size: 1.25em;
+}
+
+#logoRow h1, .logoText {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 0;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#botNavRow li, .rowHeader, #indexNavRow li {
+  font-family: 'Armata', sans-serif;
+}
+
+header, .main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#price {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: red;
+}
+
+div.btn-group a {
+  color: #428BCA;
+  font-size: 1em;
+  font-weight: bold;
+}
+div.btn-group a:hover {
+  color: #428BCA;
+}
+
+table.first {
+  font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+  margin-bottom: 2%;
+}
+
+#imgDesc, #cartSubtotal {
+  font-weight: bold;
+}
+
+#cartPrice {
+  color: #9A8060;
+}
+
+footer {
+  margin-top: 1em;
+  background-color: #E7E7E7;
+  color: black;
+}
+
+div.copyrightRow {
+  height: 35px;
+  color: #6E6E6E;
+  background-color: #3A3A3A;
+  padding-top: 5px;
+}
+
+footer table.borderless td {
+  border-top: 0 none;
+}
+
+.indexHead {
+  position: fixed;
+  z-index: 1;
+  background: transparent;
+  border: none;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url('../images/whistler2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-radius: 10px;
+}
